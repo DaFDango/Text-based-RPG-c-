@@ -50,7 +50,6 @@ void Scene::Cave(Human* p)
             RedText("You killed the monster. \n\n");
             HealthText("Player hp: " + std::to_string(p->GetHp()) + "hp\n");
             GoldText("You stole " + std::to_string(addedGold) + "g, Total: " + std::to_string(p->GetGold()) + "g");
-            SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 7);
             _getch();
             system("cls");
             break;

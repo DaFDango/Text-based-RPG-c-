@@ -5,13 +5,13 @@ class Item
 {
 public:
 	std::string getName();
-	void setName();
-	int getValue();
-	void setValue();
+	void setName(std::string);
+	int getMight();
+	void setMight(int);
 
 private:
 	std::string name;
-	int value;	//Defines item efficiency (hp healed, added attack damage/defence and so on)
+	int might;	//Defines item efficiency (hp healed, added attack damage/defence and so on)
 };
 
 class Weapon : public Item 

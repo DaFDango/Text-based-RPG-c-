@@ -23,7 +23,6 @@ int main()
     {
         SystemText("Where do you want to go?\n");
         std::cout << "1.Cave\n" << "2.Village\n" << "3.Sanctuary\n" << "4.Sleep\n" << "5.Character\n" << "6.Quit\n\n";
-        //getline(std::cin, c);
 
         switch (_getch())
         {
